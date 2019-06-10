@@ -531,6 +531,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 3e99ec06c5efc9d4089299d760d40f7c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: aa817058b3fdd29429b34f065a7a8770, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e99ec06c5efc9d4089299d760d40f7c, type: 3}
   m_IsPrefabAsset: 0
@@ -665,7 +669,8 @@ MonoBehaviour:
   mouseSensitivity: 10
   cameraSmoothing: 5
   lockAndHideCursor: 1
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 4288335847994348, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+    type: 2}
   enableCameraShake: 0
   autoCrosshair: 0
   Crosshair: {fileID: 0}
